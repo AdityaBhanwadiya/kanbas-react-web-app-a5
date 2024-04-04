@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.link {
+    color: red;
+    text-decoration: none;
+}
+
+.module-title {
+    font-weight: bold;
+}
+
+.module-subtitle {
+    font-weight: bold;
+}
+
+.module-item {
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.module-link {
+    padding-left: 20px;
+}
+
+.todo-item {
+    color: red;
+}
+
+.list-group-item.module-border {
+    border-left: 5px solid green;
+}
+
+.menu-icon {
+    color: red;
+}
+
+.course-name,
+.page-name {
+    font-size: large;
+}
+
+.col.navcol {
+    flex: 0 0 85px;
+    max-width: 85px;
+    min-width: 85px;
+}
+
+.col-2.sidebar {
+    flex: 0 0 200px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.col-2.cnav {
+    padding-left: 25px;
+}

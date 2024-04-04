@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.kanbas-nav {
+    background-color: black;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding-inline-start: 0;
+    padding-left: 0;
+    width: 85px;
+    margin: 0;
+    height: 100%;
+}
+
+.kanbas-nav li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.kanbas-nav-link {
+    text-decoration: none;
+}
+
+.kb-nav-icon {
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.kanbas-nav-text {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.account-icon {
+    color: white;
+}
+
+.nu-logo {
+    width: 80px;
+}
+
+.kanbas-nav-selected {
+    background-color: white;
+}
+
+
+.kanbas-nav-selected>a>i.account-icon {
+    color: grey;
+}
+
+.kanbas-nav-selected>a>span {
+    color: red;
+}
+
+.kanbas-menu {
+    list-style-type: none;
+}
+
+.kanbas-menu-text {
+    color: red;
+    text-decoration: none;
+}
+
+.menu-link {
+    color: grey;
+}

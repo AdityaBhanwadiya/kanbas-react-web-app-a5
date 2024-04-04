@@ -1,0 +1,83 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+    list-style: none;
+}
+
+.wd-modules>li {
+    border: 1px solid gray !important;
+    border-left: none !important;
+}
+
+.wd-modules>li>div {
+    padding: 6px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules>li>ul {
+    list-style: none;
+}
+
+.wd-modules>li>ul>li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 3px solid green;
+}
+
+.wd-modules>li {
+    margin-bottom: 20px;
+}
+
+.module-header {
+    background-color: f5f5f5;
+}
+
+.module-li:hover {
+    background-color: #d1ecf1;
+}
+.module-header {
+    background-color: f5f5f5;
+}
+
+.module-li:hover {
+    background-color: #d1ecf1;
+}
+
+.assignment-li:hover {
+    background-color: #d1ecf1;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-1 {
+    margin-right: 1px;
+}
+
+.ml-n3 {
+    margin-left: -3.5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="/Kanbas/Navigation/style.css" rel="stylesheet" />
+    <link href="/Kanbas/Account/AccountNavigation/style.css" rel="stylesheet" />
+    <link href="/Kanbas/Dashboard/style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container ms-0">
+        <div class="row">
+            <div class="col-1 p-0 m-0 d-none d-sm-block">
+                <!-- Kanbas Navigation -->
+                <ul class="kanbas-nav min-vh-100">
+                    <li>
+                        <a href="/Kanbas/Dashboard/screen.html"><img src="/images/nu_logo.png" href="#" alt="NU Logo"
+                                class="nu-logo"></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="/Kanbas/Account/Profile/screen.html"><i
+                                class="kb-nav-icon fa-solid fa-circle-user fa-2xl account-icon"></i> <br> <span
+                                class="kanbas-nav-text">Account</span></a>
+                    </li>
+                    <li class="kanbas-nav-selected">
+                        <a class="kanbas-nav-link" href="/Kanbas/Dashboard/screen.html"><i
+                                class="kb-nav-icon fa-solid fa-gauge-high fa-flip-horizontal fa-2xl"></i> <br>
+                            <span class="kanbas-nav-text">Dashboard</span></a>
+                    </li>
+                    <li>
+
+                        <a class="kanbas-nav-link" href="/Kanbas/Courses/Home/screen.html"><i
+                                class="kb-nav-icon fa-solid fa-book fa-2xl"></i>
+                            <br><span class="kanbas-nav-text">Courses</span></a>
+                    </li>
+                    <li>
+
+                        <a class="kanbas-nav-link" href="#"><i class="kb-nav-icon fa-solid fa-calendar-days fa-2xl"></i>
+                            <br><span class="kanbas-nav-text">Calendar</span></a>
+                    </li>
+                    <li>
+
+                        <a class="kanbas-nav-link" href="#"><i
+                                class="kb-nav-icon fa-solid fa-envelope-open-text fa-2xl"></i> <br> <span
+                                class="kanbas-nav-text">Inbox</span></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="#"><i class="kb-nav-icon fa-regular fa-clock fa-2xl"></i> <br>
+                            <span class="kanbas-nav-text">History</span></a>
+                    </li>
+                    <li>
+
+                        <a class="kanbas-nav-link" href="#"><i
+                                class=" kb-nav-icon fa-solid fa-network-wired fa-2xl"></i></i>
+                            <br> <span class="kanbas-nav-text">Studio</span></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="#"><i
+                                class="kb-nav-icon fa-solid fa-right-from-bracket fa-2xl"></i> <br><span
+                                class="kanbas-nav-text">Commons</span></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="#"><i
+                                class="kb-nav-icon fa-regular fa-circle-question fa-2xl"></i> <br><span
+                                class="kanbas-nav-text">Help</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col ms-5 ms-lg-3">
+                <div class="row">
+                    <h1 class="display-6 ps-0 mt-2">Dashboard</h1>
+                    <hr />
+                </div>
+
+                <div class="row">
+                    <h4 class="ps-0">Published Courses (8)</h4>
+                    <hr />
+                </div>
+
+                <div class="row">
+                    <div class="d-flex flex-row flex-wrap ps-0">
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+
+
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+
+                        <div class="card dash-card">
+                            <div class="card-menu">
+                                <div class="dropdown">
+                                    <button class="btn text-white card-dropdown" type="button" id="dropdownMenuButton"
+                                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                <img src="/images/course.jpg" class="card-img-top" alt="Course Image">
+                            </a>
+
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <a class="text-link" href="/Kanbas/Courses/Home/screen.html">
+                                        <h5 class="card-title dash-card-title">CS5610 Web Development</h5>
+                                        <h6 class="card-subtitle mb-2 text-body-secondary">CS5610.20040.202310</h6>
+                                        <p class="card-text">
+                                            <small class="text-body-secondary">202410_1 Fall 2023 Semester Full
+                                                Term</small>
+                                        </p>
+                                    </a>
+                                </div>
+                                <div><i class="fa-regular fa-pen-to-square fa-md"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

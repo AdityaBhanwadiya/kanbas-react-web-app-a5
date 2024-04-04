@@ -1,0 +1,37 @@
+.dash-card {
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.dash-card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.card-dropdown {
+    background: transparent;
+    border: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+    content: none;
+}
+
+.text-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}

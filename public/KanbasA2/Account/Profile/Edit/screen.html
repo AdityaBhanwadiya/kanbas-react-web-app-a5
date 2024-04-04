@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Profile</title>
+</head>
+<body>
+    <table width="100%">
+        <tr>
+            <!--Kanbas Navigation-->
+            <td valign="top">
+                <ul>
+                    <li><a href="/Kanbas/Account/Profile/screen.html">Account</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="/Kanbas/Courses/Home/screen.html">Courses</a></li>
+                    <li><a href="#">Calendar</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Studio</a></li>
+                    <li><a href="#">Commons</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </td>
+
+            <!--Account Navigation-->
+            <td valign="top">
+                <ul>
+                    <li><a href="#">Notifications</a></li>
+                    <li><a href="/Kanbas/Account/Profile/screen.html">Profile</a></li>
+                    <li><a href="#">Files</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">ePortfolios</a></li>
+                    <li><a href="#">Shared Content</a></li>
+                    <li><a href="#">The Hub</a></li>
+                    <li><a href="#">Qwickly Course Tools</a></li>
+                    <li><a href="#">Global Announcements</a></li>
+                </ul>
+            </td>
+
+            <!--Profile Editor Content-->
+            <td valign="top">
+                <h2>Hemraj Mahadeshwar</h2>
+
+                <label for="profile-name">Name:</label> <input id="profile-name" type="text" placeholder="Enter Name" value="Hemraj Mahadeshwar">
+                <label for="profile-pronouns">Pronouns:</label>
+                <select id="profile-pronouns">
+                    <option selected>None</option>
+                    <option>He/Him</option>
+                    <option>She/Her</option>
+                    <option>They/Them</option>
+                </select> <br /> <br />
+
+                <label for="profile-title">Title:</label> <input id="profile-title" type="text" placeholder="Enter Title">
+                <br /> <br />
+
+                <h4>Contact</h4>
+                No registered services, you can add some on the <a href="#">settings</a> page.
+                <br />
+                <h4>Biography</h4>
+                I am a Computer Science graduate student with a strong background in software development and cloud computing. <br/>
+Experienced in open sourced Cloud Native Computing Foundations (CNCF) technologies.<br />
+                <textarea>Masters Student at Northeastern University.</textarea>
+                <br />
+                <h4>Links</h4>
+
+                <ul><li><a href="https://www.youtube.com">YouTube Links to an external site</a></li></ul>
+
+                <table>
+                    <tr>
+                        <td><label for="link-title">Title</label></td>
+                        <td><label for="link-url">URL</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="link-title" type="text" placeholder="Enter title" value="YouTube">&#x2192;</td>
+                        <td><input id="link-url" type="text" placeholder="Enter URL" value="https://www.youtube.com/@pshkrh"><a href="#">Remove</a></td>
+                    </tr>
+                </table>
+
+                <button>Add another link</button>
+                <br />
+            </br>
+                <form action="/Kanbas/Account/Profile/screen.html" style="display:inline;"><button>Cancel</button></form>
+                <form action="/Kanbas/Account/Profile/screen.html" style="display:inline;"><button>Save Profile</button></form>
+                <br />
+                <button>Edit Profile</button>
+                <form action="/Kanbas/Account/Profile/screen.html" style="display:inline;"><button>Cancel Editing</button></form>
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+</html>

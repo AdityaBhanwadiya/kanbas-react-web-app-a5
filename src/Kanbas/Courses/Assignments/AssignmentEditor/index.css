@@ -1,0 +1,11 @@
+.border-bottom-1-grey{
+    border-bottom: 1px solid gray;
+}
+
+.custom-breadcrumb{
+    --bs-breadcrumb-divider: ">";
+}
+
+.breadcrumb-border {
+    border-bottom: 1px solid gray;
+}

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kanbas Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="/Kanbas/Navigation/style.css" rel="stylesheet" />
+    <link href="/Kanbas/Courses/CourseNavigation/style.css" rel="stylesheet" />
+    <link href="/Kanbas/Courses/Assignments/style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container ms-0 pe-0">
+        <div class="row">
+            <div class="col-1 p-0 m-0 d-none d-lg-block">
+                <!-- Kanbas Navigation -->
+                <ul class="kanbas-nav min-vh-100">
+                    <li>
+                        <a href="/Kanbas/Dashboard/screen.html"><img src="/images/nu_logo.png" href="#" alt="NU Logo"
+                                class="nu-logo"></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="/Kanbas/Account/Profile/screen.html"><i
+                                class="kb-nav-icon fa-solid fa-circle-user fa-2xl account-icon"></i> <br> <span
+                                class="kanbas-nav-text">Account</span></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="/Kanbas/Dashboard/screen.html"><i
+                                class="kb-nav-icon fa-solid fa-gauge-high fa-flip-horizontal fa-2xl"></i> <br>
+                            <span class="kanbas-nav-text">Dashboard</span></a>
+                    </li>
+                    <li class="kanbas-nav-selected">
+
+                        <a class="kanbas-nav-link" href="/Kanbas/Courses/Home/screen.html"><i
+                                class="kb-nav-icon fa-solid fa-book fa-2xl"></i>
+                            <br><span class="kanbas-nav-text">Courses</span></a>
+                    </li>
+                    <li>
+
+                        <a class="kanbas-nav-link" href="#"><i class="kb-nav-icon fa-solid fa-calendar-days fa-2xl"></i>
+                            <br><span class="kanbas-nav-text">Calendar</span></a>
+                    </li>
+                    <li>
+
+                        <a class="kanbas-nav-link" href="#"><i
+                                class="kb-nav-icon fa-solid fa-envelope-open-text fa-2xl"></i> <br> <span
+                                class="kanbas-nav-text">Inbox</span></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="#"><i class="kb-nav-icon fa-regular fa-clock fa-2xl"></i> <br>
+                            <span class="kanbas-nav-text">History</span></a>
+                    </li>
+                    <li>
+
+                        <a class="kanbas-nav-link" href="#"><i
+                                class=" kb-nav-icon fa-solid fa-network-wired fa-2xl"></i></i>
+                            <br> <span class="kanbas-nav-text">Studio</span></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="#"><i
+                                class="kb-nav-icon fa-solid fa-right-from-bracket fa-2xl"></i> <br><span
+                                class="kanbas-nav-text">Commons</span></a>
+                    </li>
+                    <li>
+                        <a class="kanbas-nav-link" href="#"><i
+                                class="kb-nav-icon fa-regular fa-circle-question fa-2xl"></i> <br><span
+                                class="kanbas-nav-text">Help</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-11">
+                <div class="col-12">
+                    <div class="row">
+                        <!-- Mobile Top Bar -->
+                        <div class="col-12 d-block d-sm-none">
+                            <div class="row fs-4 ps-0 pb-0 d-block d-lg-none">
+                                <div class="col-12 text-center text-white bg-dark pt-4 pb-4 fs-4 align-middle">
+                                    <a href="/Kanbas/Courses/CourseNavigation/menu.html"
+                                        class="text-decoration-none float-end fs-3"><i
+                                            class="fa-solid fa-chevron-down text-white"></i></a>
+                                    <a class="text-decoration-none text-danger fs-3"
+                                        href="/Kanbas/Navigation/menu.html">
+                                        <i class="fa-solid fa-bars float-start mt-1 text-white"></i>
+                                    </a>
+                                    <a class="text-decoration-none" href="#">
+                                        <i class="fa-solid fa-glasses float-end mt-1 me-3 text-white"></i></a>
+                                    <div><a class="text-white" href="#"><u>CS 5610.11550.202410 <br /> Home</u></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- top bar -->
+                        <div class="d-flex flex-row align-items-center p-2 ms-2">
+                            <a href="#" class="link">
+                                <i class="fa-solid fa-bars menu-icon fa-lg p-2 d-none d-sm-block"></i>
+                            </a>
+                            <div class="p-2 d-none d-sm-block">
+                                <nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>';">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a class="link"
+                                                href="/Kanbas/Courses/Home/screen.html"><span
+                                                    class="course-name">CS5610.11550.202410</span></a></li>
+                                        <li class="breadcrumb-item active" aria-current="page"><span
+                                                class="page-name">Assignments</span></li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <div class="ms-auto d-none d-sm-block">
+                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-glasses"></i>
+                                    Student View</button>
+                            </div>
+                        </div>
+                        <hr class="ms-3 d-none d-sm-block">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-2 cnav m-0 d-none d-lg-block me-4">
+
+                        <p class="cnav-small-text text-body-secondary"><i>202410_1 Fall 2023 Semester</i></p>
+
+                        <!-- Course Navigation -->
+                        <ul class="course-nav">
+                            <li><a href="/Kanbas/Courses/Home/screen.html">Home</a></li>
+                            <li><a href="#">Modules</a></li>
+                            <li><a href="#">Piazza</a></li>
+                            <li><a href="#">Zoom Meetings</a></li>
+                            <li class="course-nav-selected"><a
+                                    href="/Kanbas/Courses/Assignments/screen.html">Assignments</a></li>
+                            <li><a href="#">Quizzes</a></li>
+                            <li><a href="/Kanbas/Courses/Grades/screen.html">Grades</a></li>
+                            <li><a href="#">People</a></li>
+                            <li><a href="#">Panopto Video</a></li>
+                            <li><a href="#">Discussions</a> <i class="fa-regular fa-eye-slash fa-flip-horizontal"></i>
+                            </li>
+                            <li><a href="#">Announcements</a> <i class="fa-regular fa-eye-slash fa-flip-horizontal"></i>
+                            </li>
+                            <li><a href="#">Pages</a> <i class="fa-regular fa-eye-slash fa-flip-horizontal"></i></li>
+                            <li><a href="#">Files</a> <i class="fa-regular fa-eye-slash fa-flip-horizontal"></i></li>
+                            <li><a href="#">Rubrics</a> <i class="fa-regular fa-eye-slash fa-flip-horizontal"></i></li>
+                            <li><a href="#">Outcomes</a> <i class="fa-regular fa-eye-slash fa-flip-horizontal"></i></li>
+                            <li><a href="#">Collaborations</a> <i
+                                    class="fa-regular fa-eye-slash fa-flip-horizontal"></i></li>
+                            <li><a href="#">Syllabus</a> <i class="fa-regular fa-eye-slash fa-flip-horizontal"></i></li>
+                            <li><a href="#">Progress Reports <br /> <span class="ps-2">(EAB Navigate)</span></a></li>
+                            <li><a href="/Kanbas/Courses/Settings/CourseDetails/screen.html">Settings</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Modules -->
+                    <div class="col">
+
+                        <!-- Module top buttons row -->
+                        <div class="d-flex gap-1">
+                            <div class="me-auto w-25"><input type="text" class="form-control"
+                                    placeholder="Search for Assignment"></div>
+                            <button type="button" class="btn btn-secondary"><i class="fa-solid fa-plus"></i>
+                                Group</button>
+                            <button type="button" class="btn btn-danger"><i class="fa-solid fa-plus"></i>
+                                Assignment</button>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <hr />
+                        <div class="row">
+                            <!-- Modules content -->
+
+                            <ul class="list-group square-list-group mb-3">
+                                <li class="list-group-item list-group-item-secondary">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-caret-down me-2"></i>
+                                        <div class="assignment-title flex-grow-1">Assignments</div>
+                                        <small class="border border-black rounded-pill p-1 me-3">40% of Total</small>
+                                        <i class="fa-solid fa-plus me-3"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A1
+                                                        SETUP</a></div>
+                                                <small class="text-body-secondary">Week 0 - SETUP</small>
+                                                <small class="text-body-secondary"><b>Due</b> Sep 18, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A2
+                                                        HTML</a></div>
+                                                <small class="text-body-secondary">Week 1 - HTML</small>
+                                                <small class="text-body-secondary"><b>Due</b> Sep 25, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A3
+                                                        CSS</a></div>
+                                                <small class="text-body-secondary">Week 2 - CSS</small>
+                                                <small class="text-body-secondary"><b>Due</b> Oct 2, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A4
+                                                        BOOTSTRAP</a></div>
+                                                <small class="text-body-secondary">Week 3 - Bootstrap</small>
+                                                <small class="text-body-secondary"><b>Due</b> Oct 10, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A5
+                                                        JAVASCRIPT</a></div>
+                                                <small class="text-body-secondary">Week 4 - JavaScript</small>
+                                                <small class="text-body-secondary"><b>Due</b> Oct 16, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A6
+                                                        REACT</a></div>
+                                                <small class="text-body-secondary">Week 5 - React & Routing</small>
+                                                <small class="text-body-secondary"><b>Due</b> Oct 23, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A7
+                                                        REDUX</a></div>
+                                                <small class="text-body-secondary">Week 6 - Redux</small>
+                                                <small class="text-body-secondary"><b>Due</b> Oct 30, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A8
+                                                        NODE</a></div>
+                                                <small class="text-body-secondary">Week 7 - Node.js</small>
+                                                <small class="text-body-secondary"><b>Due</b> Nov 6, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                                <li class="list-group-item assignment-border">
+                                    <div class="d-flex justify-content-start align-items-center">
+                                        <i class="fa-solid fa-grip-vertical me-2"></i>
+                                        <i class="fa-solid fa-file-pen assignment-item-icon fa-lg p-3"></i>
+                                        <div class="assignment-item flex-grow-1">
+                                            <div class="d-flex flex-column">
+                                                <div class="assignment-item"><a class="assignment-link"
+                                                        href="/Kanbas/Courses/Assignments/AssignmentsEdit/screen.html">A9
+                                                        MONGO</a></div>
+                                                <small class="text-body-secondary">Week 8 - MongoDB</small>
+                                                <small class="text-body-secondary"><b>Due</b> Nov 13, 2022 at 11:59pm |
+                                                    100 pts</small>
+                                            </div>
+                                        </div>
+                                        <i class="fa-solid fa-circle-check fa-lg me-3" style="color: green;"></i>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
