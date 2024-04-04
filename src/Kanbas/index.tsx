@@ -10,8 +10,8 @@ import axios from "axios";
 // const API_BASE = process.env.REACT_APP_API_BASE;
 
 function Kanbas(){
-    // const API_BASE = process.env.REACT_APP_API_BASE;
-    const COURSE_API="https://kanbas-node-server-app-me7c.onrender.com/api/courses";
+    const API_BASE = process.env.REACT_APP_API_BASE;
+    const COURSE_API=`${API_BASE}/api/courses`;
     const [courses, setCourses] = useState<any[]>([]);
     const [course,setCourse] = useState({
         _id:"0", name:"New Course", title: "New Course Title",
