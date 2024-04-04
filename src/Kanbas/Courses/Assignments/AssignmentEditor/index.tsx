@@ -74,7 +74,7 @@ function AssignmentEditor(){
             <div className="mb-5">
                 <div className="mb-3">
                     <label 
-                        htmlFor="assignment-name" 
+                        htmlFor="assignment-title" 
                         className="form-label"
                     >
                         Assignment Name
@@ -82,13 +82,12 @@ function AssignmentEditor(){
                     <input 
                         
                         className="form-control" 
-                        id="assignment-name"
-                        value={assignment?.name} 
+                        id="assignment-title"
+                        value={assignment?.title} 
                         onChange={(e)=>dispatch(setAssignment({
                             ...assignment,
-                            name: e.target.value
+                            title: e.target.value
                         }))}
-                        placeholder={assignment?.name}
                     />
                 </div>
                 <div className="mb-3">
@@ -117,11 +116,11 @@ This assignment describes how to install the development environment for creatin
                                 type="number" 
                                 className="form-control" 
                                 id="assignment-points" 
-                                value={assignment.totalPoints}
+                                value={assignment.points}
                                 onChange={(e)=> dispatch(
                                     setAssignment({
                                         ...assignment,
-                                        totalPoints:e.target.value
+                                        points:e.target.value
                                 }))}
                                 placeholder="100"
                             />

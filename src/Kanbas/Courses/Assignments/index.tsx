@@ -113,7 +113,7 @@ function Assignments(){
                                                         <span 
                                                         onClick={()=>navigateToAssignment(assignment)}
                                                         className="text-decorattion-underline cursor-pointer">
-                                                            {assignment.name}
+                                                            {assignment.title}
                                                         </span>
                                                         <br/>
                                                         <span>
@@ -132,7 +132,7 @@ function Assignments(){
                                                                     </span>
                                                                 )}
                                                                 <span className="fw-bold">Due</span> {assignment.dueDate}
-                                                                <span className="fw-normal fs-16"> | </span> Points: {assignment.totalPoints}
+                                                                <span className="fw-normal fs-16"> | </span> Points: {assignment.points}
                                                             </span>
                                                         </span>
                                                     </span>
