@@ -1,6 +1,6 @@
 import axios from "axios";
-export const BASE_API = "mongodb://localhost:27017/kanbas";
-export const USERS_API = `${BASE_API}/users`;
+export const BASE_API = "https://kanbas-node-server-app-me7c.onrender.com";
+export const USERS_API = `${BASE_API}/api/users`;
 export interface User { _id: string; username: string; password: string; role: string;
 firstName: string, lastName: string };
 const api = axios.create({
