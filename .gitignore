@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+REACT_APP_BASE_API_URL=http://localhost:3000
